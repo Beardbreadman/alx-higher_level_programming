@@ -2,7 +2,7 @@
 
 The world need somthing simple, not complicated.
 
-## Welcome to the World of PYTHON
+## Welcome to the World of Python
 Don't get scared of pythons. You only need to play with python codes and feel the fun...
 From previous knowledge of codes like C, python is no big deal, no tricks, no freaky syntax
 In higher languages there are tens of thousands ways to do the same thing, methods, big files sometimes requires multiple implementations.
