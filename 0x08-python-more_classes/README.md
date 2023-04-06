@@ -846,5 +846,4 @@ julien@ubuntu:~/0x08. N Queens$
 -   File: `101-nqueens.py`
 
  Done? Help Check your code Ask for a new correction Get a sandbox QA Review
-
-Copyright © 2021 Holberton Inc, All rights reserved.
+ 
