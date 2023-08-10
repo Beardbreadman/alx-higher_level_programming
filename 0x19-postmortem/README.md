@@ -4,7 +4,7 @@ Incident Report/Postmortem
 
 Nginx Server Testing
 
-/home/Mjkamma/Downloads/overwhelmed.jpg
+/home/Beardbreadman/Downloads/overwhelmed.jpg
 
 Issue Summary:
 
@@ -12,12 +12,12 @@ We were testing how well our web server setup featuring Nginx was doing under pr
 
 Timeline:
 
-    2023–04–03, 6:00 AM WAT: Project release
-    2023–04–03, 9:00 AM WAT: Begin project. First, head to check for error logs.
-    2023–04–03, 9:20 AM WAT: Find that error logs are okay, head to /etc/default/Nginx to check the maximum number of file descriptors a process can have.
-    2023–04–03, 9:35 AM WAT: Found the problem with the high amount of requests made, where our ULIMIT was way below the requests made.
-    2023–04–03, 9:55 AM WAT: Puppet script running began to increase the limit.
-    2023–04–03, 10:00 AM WAT: The puppet script finished and the server was able to handle all the requests made. Script pushed to GitHub.
+    2023–08–10, 6:00 AM WAT: Project release
+    2023–08–10, 9:00 AM WAT: Begin project. First, head to check for error logs.
+    2023–08–10, 9:20 AM WAT: Find that error logs are okay, head to /etc/default/Nginx to check the maximum number of file descriptors a process can have.
+    2023–08-10, 9:35 AM WAT: Found the problem with the high amount of requests made, where our ULIMIT was way below the requests made.
+    2023–08–10, 9:55 AM WAT: Puppet script running began to increase the limit.
+    2023–08–10, 10:00 AM WAT: The puppet script finished and the server was able to handle all the requests made. Script pushed to GitHub.
 
 Root Cause:
 
